@@ -1,0 +1,1 @@
+Cada columna del comando D, muestra los rangos de memoria gaurdadas desde la direccion de 0DAB los grupos de datos hexadecimales, y los puntos son datos no imprimibles de ASCII por su valor
