@@ -1,1 +1,4 @@
 Cada columna del comando D, muestra los rangos de memoria gaurdadas desde la direccion de 0DAB los grupos de datos hexadecimales, y los puntos son datos no imprimibles de ASCII por su valor
+
+
+El comando D es el que nos muestra el resultado sin modificar nada, nos permite tener una verificacion segura de la operacion de E, invocar E300 no es seguro porque ese comando es suceptible a cualquier input entonces si no se tiene cuidado puede cambiar espacio de memoria, mientras que F no muestra resultados sino que es el que rellena informacion en cierto rango que sobrescribiria lo anterior, y el comando D es el que garantiza solo la lectura de los datos asi que no genera problemas de sobrescritura de datos
